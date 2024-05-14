@@ -1,0 +1,31 @@
+:root{
+    --c-blue: #0B57AC;
+    --c-black: #111211;
+    --c-dark-blue: #273145;
+    --c-light-blue: #9FB5DF;
+    --c-grey: #F7F7F7;
+    --c-white: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1420px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.button{
+    background-color: var(--c-light-blue);
+    padding: 10px 20px;
+    border-radius: 35px;
+    text-decoration: none;
+    color: var(--c-white);
+}

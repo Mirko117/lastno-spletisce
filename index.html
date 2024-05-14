@@ -2,12 +2,92 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="css/index.css"> 
+
     <title>BIMO d.o.o</title>
+
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo/bimo_logo_blue.png" alt="eNSA" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu"
+            aria-controls="navbar-menu" aria-expanded="flase" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">Domov</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Bootstrap</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Dokumentacija
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a href="#" class="dropdown-item">Kako začeti</a></li>
+                            <li><a href="#" class="dropdown-item">Postavitev</a></li>
+                            <li><a href="#" class="dropdown-item">Vsebina</a></li>
+                            <li><a href="#" class="dropdown-item">Komponente</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Vodiči</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Kontakt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero-section">
+        <div class="hero-overlay">
+            <div class="container">
+                <h1>Zastopstvo blagovnih znamk od leta 1992</h1>
+                <h2>BIMO b.o.o</h2>
+                <p>Dejavnost podjetja BIMO d.o.o. je zastopanje blagovnih znamk iz različnih celin in njihov razvoj. Smo večstrukturno podjetje, ki ga sestavljajo prodaja, logistika in marketing.</p>
+                <a href="#" class="button">KONTAKT</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="carousel-section">
+        <div class="items-wrapper">
+            <div class="item"><img src="images/index/elledi.png" alt="Elledi"></div>
+            <div class="item"><img src="images/index/cunga_lunga.png" alt="Cunga Lunga"></div>
+            <div class="item"><img src="images/index/go_on.png" alt="Go On"></div>
+            <div class="item"><img src="images/index/go_on_nutrition.png" alt="Go On Nutrition"></div>
+            <div class="item"><img src="images/index/favorita.png" alt="Favorita"></div>
+            <div class="item"><img src="images/index/elledi.png" alt=""></div>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
