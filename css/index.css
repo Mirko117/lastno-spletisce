@@ -6,6 +6,7 @@ nav .navbar-brand img{
     height: 50px;
 }
 
+
 /* Hero section */
 
 #hero-section{
@@ -15,7 +16,7 @@ nav .navbar-brand img{
 }
 
 .hero-overlay{
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .75);
     padding: 85px 0;
 }
 
@@ -47,7 +48,6 @@ h1{
 }
 
 
-
 /* Carousel section */
 
 #carousel-section{
@@ -67,9 +67,8 @@ h1{
 
 /* Operations section */
 
-
 #operations-section{
-    padding: 100px 0;
+    padding: 100px 0 200px 0;
     text-align: center
 }
 
@@ -85,11 +84,48 @@ h1{
     background-color: var(--c-grey);
     padding: 30px;
     text-align: left;
-    max-width: 380px;
 }
 
 #operations-section h3{
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
+}
+
+
+/* Idea section */
+
+#idea-section{
+    background-image: url("../images/index/idea_bg.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+#idea-section .items-wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content:space-between;
+    gap: 40px;
+}
+
+#idea-section .accordion{
+    margin-top: 50px;
+    max-width: 600px;
+}
+
+#idea-section .accordion-button{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#idea-section .accordion-body{
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+#idea-section #idea-image{
+    width: 100%;
+    position: relative;
+    top: -150px;
 }
