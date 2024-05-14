@@ -16,7 +16,7 @@ nav .navbar-brand img{
 
 .hero-overlay{
     background-color: rgba(0, 0, 0, .5);
-    padding: 60px 0;
+    padding: 85px 0;
 }
 
 h1{
@@ -62,4 +62,34 @@ h1{
 
 #carousel-section .items-wrapper .item img{
     width: 100%;
+}
+
+
+/* Operations section */
+
+
+#operations-section{
+    padding: 100px 0;
+    text-align: center
+}
+
+#operations-section .items-wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#operations-section .items-wrapper .item{
+    background-color: var(--c-grey);
+    padding: 30px;
+    text-align: left;
+    max-width: 380px;
+}
+
+#operations-section h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
 }
