@@ -1,14 +1,7 @@
 
 
-/* Navbar */
-
-nav .navbar-brand img{
-    height: 50px;
-}
-
 
 /* Hero section */
-
 #hero-section{
     background-image: url("../images/index/hero_bg.png");
     background-position: center;
@@ -49,7 +42,6 @@ h1{
 
 
 /* Carousel section */
-
 #carousel-section{
     background-color: var(--c-grey);
 }
@@ -66,7 +58,6 @@ h1{
 
 
 /* Operations section */
-
 #operations-section{
     padding: 100px 0 200px 0;
     text-align: center
@@ -94,7 +85,6 @@ h1{
 
 
 /* Idea section */
-
 #idea-section{
     background-image: url("../images/index/idea_bg.png");
     background-position: center;
@@ -129,3 +119,4 @@ h1{
     position: relative;
     top: -150px;
 }
+

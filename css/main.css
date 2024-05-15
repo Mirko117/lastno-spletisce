@@ -1,3 +1,5 @@
+/* GLOBAL STYLE */
+
 :root{
     --c-blue: #0B57AC;
     --c-black: #111211;
@@ -45,4 +47,39 @@ h2{
 
 .span-blue{
     color: var(--c-blue);
+}
+
+/* Navbar */
+nav .navbar-brand img{
+    height: 50px;
+}
+
+/* Footer */
+footer{
+    background-image: url("../images/index/footer_bg.png");
+    color: var(--c-white);
+}
+
+footer .footer-overlay{
+    background-color: rgba(0, 0, 0, .5);
+    padding: 50px 0 20px 0;
+}
+
+footer .items-wrapper{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+
+
+footer .footer-logo{
+    height: 70px;
+}
+
+footer .rights{
+    border-top: 1px solid var(--c-grey);
+    text-align: center;
+    padding-top: 20px;
 }
