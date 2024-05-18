@@ -120,3 +120,111 @@ h1{
     top: -150px;
 }
 
+/* Responsive:
+0px to 575px Small Devices (Tablets);
+Breakpoint: 576px to 767px Medium Devices (Tablets and Small Laptops);
+Breakpoint: 768px to 991px Large Devices (Desktops and Large Laptops);
+Breakpoint: 992px to 1199px Extra Large Devices */
+
+@media (max-width: 1199px){
+    #hero-section h1{
+        font-size: 44px;
+    }
+
+    #hero-section h2{
+        font-size: 44px;
+    }
+
+    #hero-section p{
+        font-size: 24px;
+    }
+
+    #hero-section a.button{
+        padding: 10px 20px;
+    }
+
+    #carousel-section .items-wrapper{
+        grid-template-columns: auto auto auto;
+    }
+
+    #operations-section .items-wrapper{
+        grid-template-columns: auto auto;
+    }
+
+    #idea-section .container{
+        max-width: 700px;
+    }
+
+    #idea-section .items-wrapper{
+        grid-template-columns: auto;
+    }
+
+    #idea-section .accordion{
+        margin: 40px 0;
+    }
+
+    #idea-section #idea-image{
+        top: -50px;
+    }
+}
+
+@media (max-width: 991px){
+    #hero-section h1{
+        font-size: 40px;
+    }
+
+    #hero-section h2{
+        font-size: 40px;
+    }
+
+    #hero-section p{
+        font-size: 22px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    #hero-section h1{
+        font-size: 36px;
+    }
+
+    #hero-section h2{
+        font-size: 36px;
+    }
+
+    #hero-section p{
+        font-size: 20px;
+    }
+
+    #idea-section .container{
+        max-width: 600px;
+    }
+}
+
+
+@media (max-width: 575px){
+    #hero-section h1{
+        font-size: 32px;
+    }
+
+    #hero-section h2{
+        font-size: 32px;
+    }
+
+    #hero-section p{
+        font-size: 18px;
+    }
+
+    #hero-section a.button{
+        padding: 10px 20px;
+    }
+
+    #carousel-section .items-wrapper{
+        grid-template-columns: auto auto;
+    }
+
+    #operations-section .items-wrapper{
+        grid-template-columns: auto;
+    }
+}
