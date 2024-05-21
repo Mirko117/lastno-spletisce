@@ -58,6 +58,15 @@ nav .navbar-brand img{
     height: 50px;
 }
 
+
+
+
+
+
+
+
+
+
 /* Footer */
 footer{
     background-image: url("../images/index/footer_bg.png");
@@ -79,6 +88,7 @@ footer .items-wrapper{
 
 footer .footer-logo{
     height: 70px;
+    margin-bottom: 10px;
 }
 
 footer .rights{
