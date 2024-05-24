@@ -26,3 +26,30 @@
 p{
     font-size: 18px;
 }
+
+/* Responsive:
+0px to 575px Small Devices (Tablets);
+Breakpoint: 576px to 767px Medium Devices (Tablets and Small Laptops);
+Breakpoint: 768px to 991px Large Devices (Desktops and Large Laptops);
+Breakpoint: 992px to 1199px Extra Large Devices */
+
+@media (max-width: 1199px){
+    #about h2{
+        font-size: 44px;
+    }
+
+    .grid{
+        grid-template-columns: auto;
+    }
+
+    .grid-1{
+        text-align: center;
+    }
+    .grid-1 img{
+        max-width: 100%;
+    }
+
+    .grid-2{
+        text-align: center;
+    }
+}

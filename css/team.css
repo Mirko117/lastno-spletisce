@@ -29,3 +29,30 @@
 #team .grid .item img{
     max-width: 300px;
 }
+
+
+/* Responsive:
+0px to 575px Small Devices (Tablets);
+Breakpoint: 576px to 767px Medium Devices (Tablets and Small Laptops);
+Breakpoint: 768px to 991px Large Devices (Desktops and Large Laptops);
+Breakpoint: 992px to 1199px Extra Large Devices */
+
+@media (max-width: 1199px){
+    #team h2{
+        font-size: 44px;
+    }
+
+    #team .grid{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 767px){
+    #team .grid{
+        grid-template-columns: auto;
+    }
+
+    #team .grid .item img{
+        max-width: 100%;
+    }
+}
