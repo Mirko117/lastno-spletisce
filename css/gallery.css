@@ -1,0 +1,39 @@
+
+h2{
+    margin-bottom: 60px;
+}
+
+#gallery{
+    background-color: var(--c-grey);
+    padding: 60px 0;
+}
+
+#gallery .gallery-wrapper{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#gallery .gallery-wrapper .gallery-item img{
+    width: 80%;
+    margin: 40px;
+}
+
+
+/* Responsive:
+0px to 575px Small Devices (Tablets);
+Breakpoint: 576px to 767px Medium Devices (Tablets and Small Laptops);
+Breakpoint: 768px to 991px Large Devices (Desktops and Large Laptops);
+Breakpoint: 992px to 1199px Extra Large Devices */
+
+@media (max-width: 767px){
+    #gallery .gallery-wrapper{
+        display: block;
+    }
+
+    #gallery .gallery-wrapper .gallery-item img{
+        margin: 20px 0;
+    }
+}
