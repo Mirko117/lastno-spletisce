@@ -1,0 +1,88 @@
+
+section{
+    background-color: var(--c-grey);
+    padding: 60px 0;
+}
+
+h2{
+    margin-bottom: 60px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+}
+
+.grid .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+/* Testimonials  section */
+
+#testimonials h2{
+    margin-bottom: 100px;
+}
+
+#testimonials .grid{
+    grid-template-columns: auto auto auto;
+}
+
+#testimonials .grid .item img{
+    max-width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+}
+
+/* Case studies */
+
+
+#case-studies-section .grid{
+    grid-template-columns: auto auto;
+}
+
+#case-studies-section .grid .item{
+    align-items: flex-start;
+}
+
+/* Video testimonial section */
+
+#video-testimonial-section .grid{
+    display: flex;
+    justify-content: center;
+}
+
+#video-testimonial-section .grid .item{
+    max-width: 620px;
+}
+
+#video-testimonial-section .grid .item iframe{
+    width: 600px;
+    height: 340px;
+}
+
+
+/* Ratings section */
+
+#ratings-section .grid{
+    grid-template-columns: auto auto auto;
+}
+
+#ratings-section .grid .item .heading-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#ratings-section .grid .item img{
+    max-width: 100px;
+    border-radius: 50%;
+}
