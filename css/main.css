@@ -115,8 +115,17 @@ footer ul li{
 footer ul li a{
     color: var(--c-white);
     text-decoration: none;
+    transition: all .3s;
 }
 
+footer ul li:hover{
+    color: var(--c-light-blue);
+}
+
+footer ul li a:hover{
+    color: var(--c-light-blue);
+    margin-left: -5px;
+}
 
 /* Responsive */
 
