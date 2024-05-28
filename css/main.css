@@ -106,6 +106,8 @@ footer ul{
     padding: 0;
     border-top: solid 1px var(--c-grey);
     padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer ul li{
