@@ -30,6 +30,9 @@
     max-width: 300px;
 }
 
+#team .grid .item h3{
+    margin-top: 10px;
+}
 
 /* Responsive:
 0px to 575px Small Devices (Tablets);

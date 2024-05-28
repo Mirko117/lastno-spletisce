@@ -38,6 +38,11 @@ h1{
 #hero-section a.button{
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid var(--c-light-blue);
+    transition: all .3s;
+}
+
+#hero-section a.button:hover{
+    background-color: var(--c-light-blue);
 }
 
 
